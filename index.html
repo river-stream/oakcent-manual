@@ -1,0 +1,145 @@
+ <!DOCTYPE html>
+<html>
+<head>
+      <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">  
+<title>River Stream</title>
+<style>
+p  {
+	font-size: 20px;
+	font-family: serif;
+}
+
+h2{
+    font-size: 20px;
+  font-family: serif;
+  text-decoration: underline;
+  font-weight:normal;
+}
+h3{
+    font-size: 12px;
+  font-family: serif;
+  font-weight:normal;
+}
+
+div {
+     background: linear-gradient(270deg, #aabeb9, #c0d5e7, #e7e5c0);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 37s ease infinite;
+    -moz-animation: AnimationName 37s ease infinite;
+    animation: AnimationName 37s ease infinite;
+  width: 300px;
+  height: 300px;
+  border: 15px blue;
+  padding: 50px;
+  font-size: 30px;
+  letter-spacing: 1px;
+  margin: 20px;
+   box-shadow: 3px 3px 3px lightgrey;
+
+}
+  @-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+body
+{
+	margin: 2em;
+}
+
+input[type=text] {
+  width: 50%;
+  padding:20px 20px;
+  margin: 1px 0;
+  box-sizing: border-box;
+  font-family: serif;
+  font-size: 20px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: yellow;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+   font-family: serif;
+   color: black;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+
+dt{
+   font-size: 20px;
+    line-height: 2em;
+}
+
+dd{
+   color: blue;
+   text-indent: 56px;
+   line-height: 2em;
+}
+
+</style>
+</head>
+<body>
+
+<div>everyone should be quiet by a little stream and listen</div>
+<br>
+<p><b>stream</b> / strem / noun<b>  1</b> a body of running water (such as a river or creek) flowing on the earth
+<b> 2</b> digital data (such as audio or video material) that is continuously delivered one packet at a time and is usually intended for immediate processing or playback 
+</p>
+<br>
+<p>Dear Listeners</p>
+<p>Everyone should be quiet by a little stream and listen is an ongoing gathering of river streams recordings. Each river stream is recorded with an underwater microphone and uploaded to free music streaming service. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+<br>
+
+<h2>Upcoming and past streams</h2>
+
+<dl>
+  <dt>04/28/2021, 8pm EST, Mill River Stream, 41°20'09.3"N 72°54'37.7"W </dt>
+  <dd></dd>
+  <dt>TBA</dt>
+  <dd></dd>
+</dl>
+<br>
+<h2>Sing up here to receive a link to current streams and notification about upcoming live streams.</h2>
+
+<form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSe88c5lRznzpsaY6VNb4Lx4C0KFWpe2xiyW3c-Rr7nU3sKbpw/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
+  
+  <input type="text" name="entry.1758100277" id="entry.1758100277" placeholder="Your email address...">
+  <input type="submit" value="Submit">
+</form>
+
+<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript">var submitted=false;</script>
+<script type="text/javascript">
+$('#gform').on('submit', function(e) {
+  $('#gform *').fadeOut(2000);
+  $('#gform').prepend('Thank you! Looking forward to listening with you... ');
+  });
+</script>
+
+<br>
+<br>
+<h3>Anežka Minaříková & Marek Nedelka, 2021</h3>
+
+</body>
+</html> 
